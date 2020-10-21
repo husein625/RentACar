@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RentACar.Dal.Domain
 {
-    public class Contact
+    public class Contact : Base
     {
         [Key]
         public int ContactID { get; set; }

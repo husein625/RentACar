@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace RentACar.Dal.Domain
 {
-    public class Car
+    public class Car : BaseEntity
     {
-        [Key]
-        public int CarID { get; set; }
+        public Car(String createdBy) : base(createdBy)
+        {
+
+        }
 
         public DateTime Year { get; set; }
 

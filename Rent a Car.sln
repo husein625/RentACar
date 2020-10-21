@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rent a Car", "Rent a Car\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Dal", "RentACar.Dal\RentACar.Dal.csproj", "{E74561EE-3275-44C9-896F-039F5C41400C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Repositories", "RentACar.Repositories\RentACar.Repositories.csproj", "{609482D1-1B6B-47C6-895A-3B78000E4AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E74561EE-3275-44C9-896F-039F5C41400C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74561EE-3275-44C9-896F-039F5C41400C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74561EE-3275-44C9-896F-039F5C41400C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609482D1-1B6B-47C6-895A-3B78000E4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609482D1-1B6B-47C6-895A-3B78000E4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609482D1-1B6B-47C6-895A-3B78000E4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609482D1-1B6B-47C6-895A-3B78000E4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

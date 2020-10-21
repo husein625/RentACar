@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RentACar.Dal.Domain
 {
-    public class Colors
+    public class Colors : Base
     {
         [Key]
         public int ColorID { get; set; }

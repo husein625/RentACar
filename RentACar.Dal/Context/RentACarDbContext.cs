@@ -1,20 +1,23 @@
-﻿using RentACar.Dal.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+using RentACar.Dal.Domain;
 using System;
 using System.Collections.Generic;
 
 namespace RentACar.Dal
 {
-    public class RentACarDbContext
+    public class RentACarDbContext : DbContext
     {
-        public List<BookedCar> BookedCars { get; set; }
-        public List<Car> Cars { get; set; }
-        public List<City> Cities { get; set; }
-        public List<Colors> Colors { get; set; }
-        public List<Contact> Cantacts { get; set; }
-        public List<Review> Reviews { get; set; }
-        public List<Role> Roles { get; set; }
-        public List<User> Users { get; set; }
+        public DbSet<BookedCar> BookedCars { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Colors> Colors { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Review> Reviews{ get; set; }
+        public DbSet<Role> Roles{ get; set; }
+        public DbSet<User> Users{ get; set; }
+        public DbSet<UserRole> UserRoles{ get; set; }
+        
+    
 
-        public List<UserRole> UserRoles { get; set; }
     }
 }

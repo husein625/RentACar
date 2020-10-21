@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RentACar.Dal.Domain
 {
-    public class User
+    public class User : Base
     {
         [Key]
         public int UserID { get; set; }
